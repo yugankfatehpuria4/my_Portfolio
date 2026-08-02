@@ -1,0 +1,17 @@
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# vercel
+.vercel/
+
+# logs & deps (in case tooling is added later)
+node_modules/
+*.log
+npm-debug.log*
+
+# local env
+.env
+.env.local
