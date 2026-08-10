@@ -7,14 +7,14 @@
 A hand-built, single-file portfolio site — no framework, no bundler, no build step.
 Every pixel, animation, and byte-of-payload decision is deliberate.
 
-[![Live Site](https://img.shields.io/badge/Live-yugank.vercel.app-000?style=for-the-badge&logo=vercel)]([https://yugank.vercel.app](https://my-portfolio-iota-ebon-33.vercel.app/))
+[![Live Site](https://img.shields.io/badge/Live-my--portfolio--iota--ebon--33.vercel.app-000?style=for-the-badge&logo=vercel)](https://my-portfolio-iota-ebon-33.vercel.app/)
 &nbsp;
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Three.js](https://img.shields.io/badge/Three.js-000?style=for-the-badge&logo=three.js&logoColor=white)
 
-<a href="[https://yugank.vercel.app](https://my-portfolio-iota-ebon-33.vercel.app/)">
+<a href="https://my-portfolio-iota-ebon-33.vercel.app/">
   <img src="./video/got-poster.jpg" alt="Portfolio hero — Game of Thrones themed" width="720">
 </a>
 
@@ -195,7 +195,7 @@ in `:root` and it's immediately usable.
 
 ### Let's connect
 
-[![Website](https://img.shields.io/badge/Website-yugank.vercel.app-000?style=flat-square&logo=vercel)](https://yugank.vercel.app)
+[![Website](https://img.shields.io/badge/Website-my--portfolio--iota--ebon--33.vercel.app-000?style=flat-square&logo=vercel)](https://my-portfolio-iota-ebon-33.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-yugankfatehpuria4-181717?style=flat-square&logo=github)](https://github.com/yugankfatehpuria4)
 [![Email](https://img.shields.io/badge/Email-yugankfatehpuria786@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:yugankfatehpuria786@gmail.com)
 
