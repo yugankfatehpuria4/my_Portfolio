@@ -272,8 +272,10 @@ dialog .df{padding:14px 20px;border-top:1px solid var(--line);display:flex;gap:9
 <input type="file" id="filePick" accept="image/*" hidden>
 <input type="file" id="jsonPick" accept="application/json,.json" hidden>
 
-<script src="render.js"></script>
-<script src="store.js"></script>
-<script src="app.js"></script>
+<!-- absolute paths: Vercel serves this page at /admin (no trailing slash),
+     so relative URLs would resolve against the site root -->
+<script src="/admin/render.js"></script>
+<script src="/admin/store.js"></script>
+<script src="/admin/app.js"></script>
 </body>
 </html>

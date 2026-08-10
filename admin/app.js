@@ -164,9 +164,11 @@
 
   /* Thumbnail resolves through the pending map so a just-picked image is
      visible before it has been published. */
+  /* absolute path: this page is served at /admin without a trailing slash,
+     so relative URLs would resolve against the site root */
   const thumb = (src) => {
     const p = S.pending.get(src);
-    return p ? p.dataUrl : src ? '../' + src : '';
+    return p ? p.dataUrl : src ? '/' + src : '';
   };
 
   const fImg = (label, path, o = {}) => {
@@ -861,7 +863,7 @@
 
   async function template() {
     if (!S.template) {
-      const r = await fetch('../index.html', { cache: 'no-store' });
+      const r = await fetch('/index.html', { cache: 'no-store' });
       if (!r.ok) throw new Error('could not read index.html (' + r.status + ')');
       S.template = await r.text();
     }
@@ -874,7 +876,7 @@
      not on disk yet. */
   async function buildPreview() {
     let html = PortfolioRender.build(S.content, await template());
-    html = html.replace('<head>', '<head>\n<base href="../">');
+    html = html.replace('<head>', '<head>\n<base href="/">');
     S.pending.forEach((img, path) => {
       html = html.split('"' + path + '"').join('"' + img.dataUrl + '"');
     });
@@ -1125,7 +1127,7 @@
   /* ── boot ─────────────────────────────────────────────────────────── */
 
   async function loadContent() {
-    const r = await fetch('../content.json', { cache: 'no-store' });
+    const r = await fetch('/content.json', { cache: 'no-store' });
     if (!r.ok) throw new Error('content.json not found (' + r.status + ')');
     return r.json();
   }
