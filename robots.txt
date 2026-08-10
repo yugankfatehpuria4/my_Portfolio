@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /content.json
 
 Sitemap: https://yugank.vercel.app/sitemap.xml
