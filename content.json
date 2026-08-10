@@ -6,21 +6,34 @@
     "keywords": "Yugank Fatehpuria, MERN Stack Developer, Full Stack Developer, AI Engineer, IIIT Sonipat, React, Next.js, Node.js, Placement 2027",
     "author": "Yugank Fatehpuria",
     "themeColor": "#0a0705",
-    "siteUrl": "https://yugank.vercel.app",
+    "siteUrl": "https://my-portfolio-iota-ebon-33.vercel.app",
     "ogTitle": "Yugank Fatehpuria ✦ Full Stack Developer & AI Engineer",
     "ogDescription": "Full-stack + GenAI builder. 10+ enterprise dashboards shipped at NIC New Delhi. MERN · Next.js · Three.js.",
     "ogImage": "video/got-poster.jpg",
     "ogImageAlt": "An ancient tome by candlelight, the opening frame of the portfolio."
   },
-
   "nav": [
-    { "label": "Work",       "href": "#work" },
-    { "label": "Experience", "href": "#experience" },
-    { "label": "Stack",      "href": "#stack" },
-    { "label": "The Ride",   "href": "#ride" },
-    { "label": "Contact",    "href": "#contact" }
+    {
+      "label": "Work",
+      "href": "#work"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Stack",
+      "href": "#stack"
+    },
+    {
+      "label": "The Ride",
+      "href": "#ride"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
   ],
-
   "profile": {
     "firstName": "Yugank",
     "lastName": "Fatehpuria",
@@ -28,46 +41,81 @@
     "availability": "Available for opportunities · Placements 2027",
     "kicker": "FULL-STACK · AI/ML · DATA",
     "tagline": "A full-stack developer crafting <span class=\"it\">intelligent</span>, <span class=\"it v\">real-time</span> web experiences, built with the MERN stack, Next.js &amp; GenAI. B.Tech CSE @ <b>IIIT Sonipat</b>, fresh off shipping <b>10+ enterprise dashboards at NIC, New Delhi</b>.",
-    "ctaPrimary":   { "label": "View my work", "href": "#work" },
-    "ctaSecondary": { "label": "Say hello",    "href": "mailto:yugankfatehpuria786@gmail.com" },
+    "ctaPrimary": {
+      "label": "View my work",
+      "href": "#work"
+    },
+    "ctaSecondary": {
+      "label": "Say hello",
+      "href": "mailto:yugankfatehpuria786@gmail.com"
+    },
     "photo": "media/profile.jpg",
     "photoAlt": "Yugank Fatehpuria",
     "locationChip": "📍 Jaipur · IIIT Sonipat",
     "photoCaption": "the human behind the commits",
     "photoRole": "OPEN TO SDE ROLES · CLASS OF '27"
   },
-
   "now": {
     "label": "NOW · LATEST",
     "title": "Frontend Dev Intern <b>@ NIC, New Delhi</b>",
     "desc": "Shipped 10+ enterprise dashboards for the Govt. of India's Parichay portal."
   },
-
   "core": {
     "label": "CURRENT OBSESSION",
     "title": "the AI core",
     "subtitle": "GENAI · AGENTIC AI · LLM APPS"
   },
-
   "socials": [
-    { "icon": "github",   "label": "GitHub",   "url": "https://github.com/yugankfatehpuria4" },
-    { "icon": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/yugank-fatehpuria-9a2252298/" },
-    { "icon": "leetcode", "label": "LeetCode", "url": "https://leetcode.com/u/wrCzVpABDc/" },
-    { "icon": "codolio",  "label": "Codolio",  "url": "https://codolio.com/profile/yugank_9868" }
+    {
+      "icon": "github",
+      "label": "GitHub",
+      "url": "https://github.com/yugankfatehpuria4"
+    },
+    {
+      "icon": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/yugank-fatehpuria-9a2252298/"
+    },
+    {
+      "icon": "leetcode",
+      "label": "LeetCode",
+      "url": "https://leetcode.com/u/wrCzVpABDc/"
+    },
+    {
+      "icon": "codolio",
+      "label": "Codolio",
+      "url": "https://codolio.com/profile/yugank_9868"
+    }
   ],
-
   "stats": [
-    { "value": "2",     "label": "Internships" },
-    { "value": "10+",   "label": "NIC dashboards" },
-    { "value": "20+",   "label": "GitHub repos" },
-    { "value": "99.9%", "label": "Best uptime" }
+    {
+      "value": "2",
+      "label": "Internships"
+    },
+    {
+      "value": "10+",
+      "label": "NIC dashboards"
+    },
+    {
+      "value": "20+",
+      "label": "GitHub repos"
+    },
+    {
+      "value": "99.9%",
+      "label": "Best uptime"
+    }
   ],
-
   "heroMarquee": [
-    "React", "Next.js", "Node.js", "TypeScript", "MongoDB",
-    "Socket.IO", "Gen AI", "Three.js", "AWS"
+    "React",
+    "Next.js",
+    "Node.js",
+    "TypeScript",
+    "MongoDB",
+    "Socket.IO",
+    "Gen AI",
+    "Three.js",
+    "AWS"
   ],
-
   "chapters": [
     {
       "sigil": "✦",
@@ -94,14 +142,12 @@
       "body": "Every throne is forged from a thousand blades. Every system, from a thousand commits. This one is mine. Scroll on."
     }
   ],
-
   "experienceSection": {
     "star": "❆",
     "title": "Where I've worked",
     "small": "EXPERIENCE",
     "houseWords": "Winter is coming."
   },
-
   "experience": [
     {
       "id": "nic",
@@ -116,11 +162,29 @@
         "Integrated REST APIs and real-time data visualizations with <b>Axios and MUI-X Charts</b>, enhancing dashboard interactivity across <b>15+ data points</b>."
       ],
       "photos": [
-        { "src": "media/nic-day1.jpg",       "alt": "At the NIC headquarters, New Delhi", "caption": "// day 1 · NIC HQ, New Delhi" },
-        { "src": "media/nic-dashboards.jpg", "alt": "Building dashboards at NIC",         "caption": "// shipping Parichay dashboards" },
-        { "src": "media/nic-workstation.jpg","alt": "Late session at the workstation",    "caption": "// one more commit" }
+        {
+          "src": "media/nic-day1.jpg",
+          "alt": "At the NIC headquarters, New Delhi",
+          "caption": "// day 1 · NIC HQ, New Delhi"
+        },
+        {
+          "src": "media/nic-dashboards.jpg",
+          "alt": "Building dashboards at NIC",
+          "caption": "// shipping Parichay dashboards"
+        },
+        {
+          "src": "media/nic-workstation.jpg",
+          "alt": "Late session at the workstation",
+          "caption": "// one more commit"
+        }
       ],
-      "chips": ["React", "MUI", "MUI-X Charts", "Axios", "REST APIs"]
+      "chips": [
+        "React",
+        "MUI",
+        "MUI-X Charts",
+        "Axios",
+        "REST APIs"
+      ]
     },
     {
       "id": "infomagine",
@@ -135,10 +199,16 @@
         "Managed version control with Git and <b>directed 2 complete CI/CD pipeline cycles</b> across real-world deployment workflows."
       ],
       "photos": [],
-      "chips": ["MongoDB", "Express", "React", "Node.js", "Git", "CI/CD"]
+      "chips": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "Git",
+        "CI/CD"
+      ]
     }
   ],
-
   "workSection": {
     "star": "⚔",
     "title": "Selected work",
@@ -148,7 +218,6 @@
     "allReposLabel": "Explore all 20+ repositories ↗",
     "allReposUrl": "https://github.com/yugankfatehpuria4?tab=repositories"
   },
-
   "projects": [
     {
       "id": "hackforge",
@@ -159,10 +228,20 @@
       "desc": "Turns plain-English ideas into production-ready <b>React / Next.js / Node</b> code with Google Gemini, <b>cutting manual coding time by 40%</b> in prototype testing.",
       "image": "https://opengraph.githubassets.com/1/yugankfatehpuria4/HackForge",
       "imageAlt": "HackForge",
-      "fallback": { "from": "#0e2438", "to": "#101b33", "color": "var(--cyan)", "text": "forge ⚡" },
+      "fallback": {
+        "from": "#0e2438",
+        "to": "#101b33",
+        "color": "var(--cyan)",
+        "text": "forge ⚡"
+      },
       "codeUrl": "https://github.com/yugankfatehpuria4/HackForge",
       "liveUrl": "https://spiffy-panda-2fe079.netlify.app/",
-      "chips": ["Next.js", "Gemini AI", "TypeScript", "Node.js"]
+      "chips": [
+        "Next.js",
+        "Gemini AI",
+        "TypeScript",
+        "Node.js"
+      ]
     },
     {
       "id": "impulsestopper",
@@ -173,10 +252,20 @@
       "desc": "An AI-powered impulse-shopping deterrent with spending analytics and a built-in <b>AI \"therapist\"</b> that talks you out of the buy before checkout does its damage.",
       "image": "https://opengraph.githubassets.com/1/yugankfatehpuria4/ImpluseStoppr",
       "imageAlt": "ImpulseStopper",
-      "fallback": { "from": "#241733", "to": "#170f2d", "color": "var(--violet)", "text": "impulse ⏸" },
+      "fallback": {
+        "from": "#241733",
+        "to": "#170f2d",
+        "color": "var(--violet)",
+        "text": "impulse ⏸"
+      },
       "codeUrl": "https://github.com/yugankfatehpuria4/ImpluseStoppr",
       "liveUrl": "https://fastidious-lollipop-e39f46.netlify.app/",
-      "chips": ["React", "TypeScript", "Framer Motion", "Recharts"]
+      "chips": [
+        "React",
+        "TypeScript",
+        "Framer Motion",
+        "Recharts"
+      ]
     },
     {
       "id": "carbontrackr",
@@ -187,10 +276,19 @@
       "desc": "Track your daily CO₂ footprint in <b>under 2 minutes</b>. Pie-chart breakdowns and eco tips that stick.",
       "image": "https://opengraph.githubassets.com/1/yugankfatehpuria4/CarbonTrackr",
       "imageAlt": "CarbonTrackr",
-      "fallback": { "from": "#0c2b22", "to": "#0d1f2c", "color": "var(--emerald)", "text": "co₂ ↓" },
+      "fallback": {
+        "from": "#0c2b22",
+        "to": "#0d1f2c",
+        "color": "var(--emerald)",
+        "text": "co₂ ↓"
+      },
       "codeUrl": "https://github.com/yugankfatehpuria4/CarbonTrackr",
       "liveUrl": "https://carbontrackr.netlify.app",
-      "chips": ["React", "Chart.js", "Vite"]
+      "chips": [
+        "React",
+        "Chart.js",
+        "Vite"
+      ]
     },
     {
       "id": "letsmeet",
@@ -201,10 +299,19 @@
       "desc": "P2P video meetings that <b>cut server bandwidth 40%</b>; JWT rooms connect globally in <b>&lt;150ms</b>.",
       "image": "https://opengraph.githubassets.com/1/yugankfatehpuria4/LetsMeet",
       "imageAlt": "LetsMeet",
-      "fallback": { "from": "#102a3f", "to": "#0b1b33", "color": "var(--cyan-soft)", "text": "◉ ⇄ ◉" },
+      "fallback": {
+        "from": "#102a3f",
+        "to": "#0b1b33",
+        "color": "var(--cyan-soft)",
+        "text": "◉ ⇄ ◉"
+      },
       "codeUrl": "https://github.com/yugankfatehpuria4/LetsMeet",
       "liveUrl": "",
-      "chips": ["WebRTC", "React", "Node.js"]
+      "chips": [
+        "WebRTC",
+        "React",
+        "Node.js"
+      ]
     },
     {
       "id": "chess",
@@ -215,10 +322,19 @@
       "desc": "<b>100+ concurrent matches</b> under 200ms latency; <b>95% retention</b> during beta.",
       "image": "https://opengraph.githubassets.com/1/yugankfatehpuria4/Chess_Game",
       "imageAlt": "Multiplayer Chess",
-      "fallback": { "from": "#26200f", "to": "#171d2c", "color": "var(--amber)", "text": "♞ e4!" },
+      "fallback": {
+        "from": "#26200f",
+        "to": "#171d2c",
+        "color": "var(--amber)",
+        "text": "♞ e4!"
+      },
       "codeUrl": "https://github.com/yugankfatehpuria4/Chess_Game",
       "liveUrl": "",
-      "chips": ["Socket.IO", "Express", "Chess.js"]
+      "chips": [
+        "Socket.IO",
+        "Express",
+        "Chess.js"
+      ]
     },
     {
       "id": "thaiconnect",
@@ -229,13 +345,20 @@
       "desc": "Smart networking platform engineered for <b>99.9% uptime</b> via aggressive indexing &amp; query optimization.",
       "image": "https://opengraph.githubassets.com/1/yugankfatehpuria4/ThaIConnect",
       "imageAlt": "ThaIConnect",
-      "fallback": { "from": "#1c1030", "to": "#0e2035", "color": "var(--amber)", "text": "⬡ 99.9%" },
+      "fallback": {
+        "from": "#1c1030",
+        "to": "#0e2035",
+        "color": "var(--amber)",
+        "text": "⬡ 99.9%"
+      },
       "codeUrl": "https://github.com/yugankfatehpuria4/ThaIConnect",
       "liveUrl": "",
-      "chips": ["MERN", "Socket.IO"]
+      "chips": [
+        "MERN",
+        "Socket.IO"
+      ]
     }
   ],
-
   "sideProjects": [
     {
       "id": "financegpt",
@@ -262,35 +385,66 @@
       "desc": "HR platform scaled to <b>500+ records</b>, cutting manual effort by <b>50%</b>. React · Node · MongoDB."
     }
   ],
-
   "stackSection": {
     "star": "⚜",
     "title": "The arsenal",
     "small": "STACK",
     "houseWords": "Hear me roar."
   },
-
   "stack": [
     {
       "id": "languages",
       "name": "Languages",
       "variant": "",
-      "items": ["Java", "C / C++", "Python", "JavaScript", "TypeScript", "SQL", "HTML / CSS", "LaTeX"]
+      "items": [
+        "Java",
+        "C / C++",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "HTML / CSS",
+        "LaTeX"
+      ]
     },
     {
       "id": "frameworks",
       "name": "Frameworks & UI",
       "variant": "rev",
-      "items": ["React.js", "Next.js", "Node.js", "Express.js", "Socket.IO", "Tailwind CSS", "Shadcn UI", "MUI + MUI-X", "Bootstrap", "ECharts"]
+      "items": [
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "Socket.IO",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "MUI + MUI-X",
+        "Bootstrap",
+        "ECharts"
+      ]
     },
     {
       "id": "tools",
       "name": "Data, Cloud & AI",
       "variant": "am",
-      "items": ["MongoDB", "MySQL", "Neon", "Firebase", "AWS", "Vercel", "Git", "Figma", "Clerk", "Inngest", "Generative AI", "Agentic AI", "Prompt Engineering"]
+      "items": [
+        "MongoDB",
+        "MySQL",
+        "Neon",
+        "Firebase",
+        "AWS",
+        "Vercel",
+        "Git",
+        "Figma",
+        "Clerk",
+        "Inngest",
+        "Generative AI",
+        "Agentic AI",
+        "Prompt Engineering"
+      ]
     }
   ],
-
   "rideSection": {
     "star": "⚡",
     "starColor": "var(--amber)",
@@ -298,7 +452,6 @@
     "small": "THE RIDE",
     "houseWords": "Ours is the fury."
   },
-
   "ride": {
     "image": "media/ride-amer-fort.jpg",
     "imageAlt": "Yugank's Triumph Speed T4 below Amer Fort, Jaipur",
@@ -308,17 +461,19 @@
       "Every engineer needs a reset button. <b>Mine has two wheels.</b> Sundays are for early starts, empty highways, and my <b>Triumph Speed T4</b> rumbling past Amer Fort before the city wakes up.",
       "Riding taught me what shipping software keeps confirming: <b>smooth is fast</b>, preparation beats panic, and the way through a sharp corner is to look where you want to go."
     ],
-    "chips": ["🏍️ Triumph Speed T4", "📍 Home roads: Jaipur", "🌅 Sunrise &gt; snooze"],
+    "chips": [
+      "🏍️ Triumph Speed T4",
+      "📍 Home roads: Jaipur",
+      "🌅 Sunrise &gt; snooze"
+    ],
     "caption": "// Amer Fort, Jaipur · Sunday as usual"
   },
-
   "honorsSection": {
     "star": "❀",
     "title": "Honors",
     "small": "CERTIFICATIONS",
     "houseWords": "Growing strong."
   },
-
   "honors": [
     {
       "id": "ncc",
@@ -339,7 +494,6 @@
       "desc": "Globally recognized certification covering comprehensive verbal and written English assessments."
     }
   ],
-
   "contact": {
     "kicker": "✦ WHAT'S NEXT",
     "heading": "Let's build something<br><span class=\"it\">remarkable.</span>",
@@ -347,12 +501,29 @@
     "ctaLabel": "Say hello 👋",
     "ctaHref": "mailto:yugankfatehpuria786@gmail.com?subject=Opportunity%20for%20Yugank%20%E2%80%94%20%5BCompany%20Name%5D&body=Hi%20Yugank%2C%0A%0AWe%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect%20about...%0A%0A",
     "cards": [
-      { "icon": "mail",  "label": "Email",      "value": "yugankfatehpuria786@gmail.com", "copy": "yugankfatehpuria786@gmail.com", "aria": "Copy email" },
-      { "icon": "phone", "label": "Phone",      "value": "+91 96539 19868",               "copy": "+919653919868",                 "aria": "Copy phone" },
-      { "icon": "pin",   "label": "Base camp",  "value": "Jaipur, RJ · IIIT Sonipat, HR", "copy": "Jaipur, Rajasthan, India",      "aria": "Copy location" }
+      {
+        "icon": "mail",
+        "label": "Email",
+        "value": "yugankfatehpuria786@gmail.com",
+        "copy": "yugankfatehpuria786@gmail.com",
+        "aria": "Copy email"
+      },
+      {
+        "icon": "phone",
+        "label": "Phone",
+        "value": "+91 96539 19868",
+        "copy": "+919653919868",
+        "aria": "Copy phone"
+      },
+      {
+        "icon": "pin",
+        "label": "Base camp",
+        "value": "Jaipur, RJ · IIIT Sonipat, HR",
+        "copy": "Jaipur, Rajasthan, India",
+        "aria": "Copy location"
+      }
     ]
   },
-
   "footer": {
     "line1": "Designed &amp; built by <a href=\"https://github.com/yugankfatehpuria4\" target=\"_blank\" rel=\"noopener\">Yugank Fatehpuria</a> ✦ a bento forged in ice and fire",
     "line2": "Cinzel · Inter · Three.js, and a Triumph idling nearby 🏍️",

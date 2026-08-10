@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /content.json
 
-Sitemap: https://yugank.vercel.app/sitemap.xml
+Sitemap: https://my-portfolio-iota-ebon-33.vercel.app/sitemap.xml

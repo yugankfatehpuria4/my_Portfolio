@@ -170,8 +170,8 @@ publish; that rewrites every canonical/OG/Twitter URL in `index.html`. `robots.t
 `sitemap.xml` are not generated, so update those two by hand — or do all of it at once:
 
 ```bash
-grep -rl 'yugank.vercel.app' . --exclude-dir=.git --exclude-dir=node_modules \
-  | xargs sed -i '' 's|yugank\.vercel\.app|YOUR-NEW-DOMAIN.com|g'
+grep -rl 'my-portfolio-iota-ebon-33.vercel.app' . --exclude-dir=.git --exclude-dir=node_modules \
+  | xargs sed -i '' 's|my-portfolio-iota-ebon-33\.vercel\.app|YOUR-NEW-DOMAIN.com|g'
 # drop the '' after -i on Linux
 ```
 
