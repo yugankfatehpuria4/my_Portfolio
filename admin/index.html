@@ -24,6 +24,10 @@ body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.5 var(--sans);
   -webkit-font-smoothing:antialiased;overflow:hidden}
 button,input,textarea,select{font:inherit;color:inherit}
 a{color:var(--acc)}
+/* The browser hides [hidden] via a UA rule that any id selector outranks —
+   #gate{display:grid} silently beat it and left the unlocked panel stranded
+   behind the lock screen. Keep this above the layout rules. */
+[hidden]{display:none!important}
 
 /* ═══════ lock screen ═══════ */
 #gate{position:fixed;inset:0;display:grid;place-items:center;background:var(--bg);z-index:100}
